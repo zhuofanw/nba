@@ -4,7 +4,7 @@ import _ from "lodash"
 export class CountSlider extends React.Component{
 
     state ={
-        value:2,
+        value:this.props.defaultValue
     }
 
     onChange = (value) => {
